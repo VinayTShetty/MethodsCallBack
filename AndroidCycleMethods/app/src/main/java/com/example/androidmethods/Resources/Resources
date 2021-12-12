@@ -1,0 +1,9 @@
+OnActivityCreated()
+
+Resources
+---------
+1)
+https://vinodpattanshetti49.medium.com/fragment-onactivitycreated-is-deprecated-306de6de4eb
+
+2)Android Resources
+https://developer.android.com/reference/android/app/Fragment#onActivityCreated(android.os.Bundle)
