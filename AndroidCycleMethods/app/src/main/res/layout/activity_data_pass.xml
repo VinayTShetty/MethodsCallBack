@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".DataPass"
     android:layout_margin="20dp"
-    tools:context=".MainActivity">
-    <TextView
-        android:id="@+id/getData_textView_id"
+    >
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/setData_Edittext_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:hint="Enter Data"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold">
-    </TextView>
+        android:textColorHint="@color/black">
+    </androidx.appcompat.widget.AppCompatEditText>
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/getData_button_id"
+        android:id="@+id/sendData_button_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="100dp"
-        android:text="Get Data"
-        android:background="@color/teal_200"
+        android:text="Send Data"
+        android:background="@color/purple_500"
         android:textAllCaps="false">
     </androidx.appcompat.widget.AppCompatButton>
 

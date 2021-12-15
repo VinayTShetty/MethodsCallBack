@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AndroidMethods</string>
+
+    <!--Intent Data Tag-->
+    <string name="activity_data_pass_TAG">DataPass</string>
 </resources>
